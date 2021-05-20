@@ -1,0 +1,133 @@
+.content {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-x: auto;
+}
+.nickname {
+  font-size: 12px;
+  color: #888;
+  margin: 5px 0px;
+}
+.language {
+  text-align: right;
+  span {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+  }
+}
+.main {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  .avatar {
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+  }
+  .text {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    max-width: calc(100% - 40px);
+    min-height: 30px;
+    line-height: 2.5;
+    font-size: 9pt;
+    text-align: left;
+    word-break: break-all;
+    background-color: #fafafa;
+    border-radius: 4px;
+    width: 80%;
+  }
+  .text:before {
+    content: " ";
+    position: absolute;
+    top: 9px;
+    right: 100%;
+    border: 6px solid transparent;
+    border-right-color: #fafafa;
+  }
+}
+.message {
+  margin: 0;
+  span {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #db5f3a;
+  }
+}
+.self {
+  text-align: right;
+  margin: 0;
+  .avatar {
+    float: right;
+    margin: 0 0 0 10px;
+  }
+  .text {
+    background-color: #b2e281;
+  }
+  .text:before {
+    right: inherit;
+    left: 100%;
+    border-right-color: transparent;
+    border-left-color: #b2e281;
+  }
+}
+
+.time {
+  text-align: center;
+  margin: 0;
+  span {
+    display: inline-block;
+    padding: 0 18px;
+    font-size: 9pt;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #dcdcdc;
+  }
+}
+.device {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  background: #eee;
+  color: #888;
+  margin-top: 5px;
+  div {
+    padding: 4px;
+  }
+}
+
+.redIcon {
+  color: red;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.waitIcon {
+  color: orange;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.homeeditor {
+  border: 1px solid #d9d9d9 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+  height: 80% !important;
+}
+
+.scoreEmailContent {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.keyword {
+  background-color: yellow;
+}
